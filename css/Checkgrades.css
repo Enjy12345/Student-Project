@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: url("../Images/Backgroung-image.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Fantasy";
+}
+h1 {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  background: #ccc;
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 27px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #d1d1d1;
+}
+.round {
+  border-radius: 50%;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 14px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+footer {
+  width: 100%;
+  color: white;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+footer div a {
+  color: white !important;
+  text-decoration: none important;
+}

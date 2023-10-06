@@ -1,0 +1,56 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Students Resgistration</title>
+    <link rel="stylesheet" type="text/css" href="../css/Grades.css" />
+  </head>
+  <body>
+    <h1>Student and Resgistration Courses</h1>
+    <div><a href="./Mainpage.html" class="previous round">&#8249;</a></div>
+    <section id="students">
+      <h2>Students</h2>
+      <ul id="student-list"></ul>
+      <form id="add-student-form">
+        <input type="text" id="student-name" placeholder="Name" required />
+        <input type="number" id="student-age" placeholder="Age" required />
+        <select id="student-gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <button class="button" type="submit">Add Student</button>
+      </form>
+    </section>
+
+    <section id="courses">
+      <h2>Courses</h2>
+      <ul id="course-list"></ul>
+      <form id="add-course-form">
+        <input type="text" id="course-name" placeholder="Name" required />
+        <textarea
+          id="course-description"
+          placeholder="Description"
+          required
+        ></textarea>
+        <button class="button" type="submit">Add Course</button>
+      </form>
+    </section>
+
+    <section id="grades">
+      <h2>Grades</h2>
+      <ul id="grade-list"></ul>
+      <form id="add-grade-form">
+        <input type="number" id="grade-value" placeholder="Grade" required />
+        <button class="button" type="submit">Add Grade</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <div class="text-center py-2 mt-2 text-white">
+      © 2023 Copyright:<a class="text-white" href="#">Enjy Khaled</a>
+    </div>
+  </footer>
+</html>
